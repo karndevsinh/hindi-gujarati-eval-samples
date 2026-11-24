@@ -1,0 +1,32 @@
+{
+  "id": "hi-08",
+  "language": "hi",
+  "flaw_in_weaker_response": "wrong_fact",
+  "source_note": "Written for this repository. Not outputs of a real model.",
+  "prompt": "लीप वर्ष में फरवरी में कितने दिन होते हैं?",
+  "responses": {
+    "A": "लीप वर्ष में फरवरी में 28 दिन होते हैं।",
+    "B": "लीप वर्ष में फरवरी में 29 दिन होते हैं।"
+  },
+  "scores": {
+    "A": {
+      "instruction_following": 4,
+      "accuracy": 1,
+      "language_quality": 5,
+      "helpfulness": 1,
+      "tone": 4
+    },
+    "B": {
+      "instruction_following": 5,
+      "accuracy": 5,
+      "language_quality": 5,
+      "helpfulness": 5,
+      "tone": 5
+    }
+  },
+  "notes": {
+    "A": "Wrong: 28 is the number for a normal year.",
+    "B": "Correct: 29 days in a leap year."
+  },
+  "rater": "author"
+}

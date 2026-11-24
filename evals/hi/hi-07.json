@@ -1,0 +1,32 @@
+{
+  "id": "hi-07",
+  "language": "hi",
+  "flaw_in_weaker_response": "rude_tone",
+  "source_note": "Written for this repository. Not outputs of a real model.",
+  "prompt": "किसी दोस्त को उधार दिए पैसे लौटाने की याद दिलाने वाला एक विनम्र संदेश लिखिए।",
+  "responses": {
+    "A": "नमस्ते, उम्मीद है आप ठीक होंगे। कुछ समय पहले दिए गए पैसों के बारे में याद दिला रहा हूँ। जब आपको सुविधा हो, कृपया लौटा दीजिए। धन्यवाद।",
+    "B": "अब तक पैसे क्यों नहीं लौटाए? अगर कल तक नहीं दिए तो सबको बता दूँगा।"
+  },
+  "scores": {
+    "A": {
+      "instruction_following": 5,
+      "accuracy": 5,
+      "language_quality": 5,
+      "helpfulness": 5,
+      "tone": 5
+    },
+    "B": {
+      "instruction_following": 4,
+      "accuracy": 4,
+      "language_quality": 4,
+      "helpfulness": 2,
+      "tone": 1
+    }
+  },
+  "notes": {
+    "A": "Polite, clear about the request, leaves the friend room.",
+    "B": "Accusing and threatens to shame the friend. Fails the 'विनम्र' requirement even though the language is correct."
+  },
+  "rater": "author"
+}

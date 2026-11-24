@@ -1,0 +1,32 @@
+{
+  "id": "gu-06",
+  "language": "gu",
+  "flaw_in_weaker_response": "ignores_constraint",
+  "source_note": "Written for this repository. Not outputs of a real model.",
+  "prompt": "પાણી બચાવવાની બરાબર ત્રણ સરળ રીતો જણાવો.",
+  "responses": {
+    "A": "1. નળ બંધ રાખો. 2. ટપકતો નળ રિપેર કરાવો. 3. વરસાદનું પાણી ભેગું કરો. 4. ઓછા સમયમાં નહાવો. 5. વાસણ ધોતી વખતે નળ ધીમો રાખો.",
+    "B": "1. વપરાશ પછી નળ બંધ રાખો. 2. ટપકતા નળનું તરત રિપેરિંગ કરાવો. 3. વરસાદનું પાણી ભેગું કરીને છોડમાં વાપરો."
+  },
+  "scores": {
+    "A": {
+      "instruction_following": 1,
+      "accuracy": 4,
+      "language_quality": 5,
+      "helpfulness": 4,
+      "tone": 4
+    },
+    "B": {
+      "instruction_following": 5,
+      "accuracy": 5,
+      "language_quality": 5,
+      "helpfulness": 5,
+      "tone": 5
+    }
+  },
+  "notes": {
+    "A": "Gives five tips when the prompt said exactly three.",
+    "B": "Exactly three, each practical."
+  },
+  "rater": "author"
+}

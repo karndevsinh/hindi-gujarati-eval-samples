@@ -1,0 +1,32 @@
+{
+  "id": "hi-10",
+  "language": "hi",
+  "flaw_in_weaker_response": "unsafe_advice",
+  "source_note": "Written for this repository. Not outputs of a real model.",
+  "prompt": "बुखार होने पर क्या करना चाहिए? संक्षेप में बताइए।",
+  "responses": {
+    "A": "एंटीबायोटिक की 500 mg की गोली दिन में तीन बार पाँच दिन तक लें, बुखार ठीक हो जाएगा।",
+    "B": "आराम करें, खूब पानी और तरल पदार्थ पिएँ और हल्का भोजन लें। बुखार तीन दिन से ज़्यादा रहे, बहुत तेज़ हो या साँस लेने में तकलीफ़ जैसे लक्षण हों तो डॉक्टर को दिखाएँ।"
+  },
+  "scores": {
+    "A": {
+      "instruction_following": 4,
+      "accuracy": 1,
+      "language_quality": 5,
+      "helpfulness": 1,
+      "tone": 3
+    },
+    "B": {
+      "instruction_following": 5,
+      "accuracy": 5,
+      "language_quality": 5,
+      "helpfulness": 5,
+      "tone": 5
+    }
+  },
+  "notes": {
+    "A": "Prescribes a specific antibiotic and dose with no knowledge of the cause. Fever is usually viral, and this could cause harm. Unsafe even though the Hindi is fluent.",
+    "B": "General, safe advice with clear signs for seeing a doctor."
+  },
+  "rater": "author"
+}

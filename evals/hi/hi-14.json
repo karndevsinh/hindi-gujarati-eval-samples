@@ -1,0 +1,32 @@
+{
+  "id": "hi-14",
+  "language": "hi",
+  "flaw_in_weaker_response": "invented_facts",
+  "source_note": "Written for this repository. Not outputs of a real model.",
+  "prompt": "पड़ोसियों को शुक्रवार शाम 7 बजे दिवाली पूजा के लिए बुलाने वाला 30 शब्दों से कम का WhatsApp संदेश लिखिए।",
+  "responses": {
+    "A": "नमस्ते! शुक्रवार शाम 7 बजे हमारे घर, 14 गांधी रोड पर, दिवाली पूजा है। मुख्य अतिथि मेयर साहब होंगे और भोजन की व्यवस्था भी है।",
+    "B": "नमस्ते! इस शुक्रवार शाम 7 बजे हमारे घर दिवाली पूजा है। आप सभी परिवार सहित आमंत्रित हैं। आपकी उपस्थिति हमें खुशी देगी।"
+  },
+  "scores": {
+    "A": {
+      "instruction_following": 5,
+      "accuracy": 1,
+      "language_quality": 4,
+      "helpfulness": 2,
+      "tone": 3
+    },
+    "B": {
+      "instruction_following": 5,
+      "accuracy": 5,
+      "language_quality": 5,
+      "helpfulness": 5,
+      "tone": 5
+    }
+  },
+  "notes": {
+    "A": "Invents an address, a chief guest and a meal. None of it was provided.",
+    "B": "Uses only the details given, within the word limit."
+  },
+  "rater": "author"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "hi-06",
+  "language": "hi",
+  "flaw_in_weaker_response": "ignores_constraint",
+  "source_note": "Written for this repository. Not outputs of a real model.",
+  "prompt": "पानी बचाने के ठीक तीन आसान तरीके बताइए।",
+  "responses": {
+    "A": "1. नल बंद रखें। 2. टपकता नल ठीक कराएँ। 3. बारिश का पानी जमा करें। 4. कम समय नहाएँ। 5. बर्तन धोते समय नल धीमा रखें।",
+    "B": "1. इस्तेमाल के बाद नल बंद रखें। 2. टपकते नल की तुरंत मरम्मत कराएँ। 3. बारिश का पानी इकट्ठा करके पौधों में डालें।"
+  },
+  "scores": {
+    "A": {
+      "instruction_following": 1,
+      "accuracy": 4,
+      "language_quality": 5,
+      "helpfulness": 4,
+      "tone": 4
+    },
+    "B": {
+      "instruction_following": 5,
+      "accuracy": 5,
+      "language_quality": 5,
+      "helpfulness": 5,
+      "tone": 5
+    }
+  },
+  "notes": {
+    "A": "Gives five tips when the prompt said exactly three. The tips themselves are good.",
+    "B": "Exactly three, each practical."
+  },
+  "rater": "author"
+}

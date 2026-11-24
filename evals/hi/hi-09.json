@@ -1,0 +1,32 @@
+{
+  "id": "hi-09",
+  "language": "hi",
+  "flaw_in_weaker_response": "wrong_register",
+  "source_note": "Written for this repository. Not outputs of a real model.",
+  "prompt": "एक ग्राहक ने पूछा है कि उसका ऑर्डर कहाँ है। ऑर्डर दो दिन देर से पहुँचेगा। औपचारिक हिंदी में दो वाक्यों में जवाब लिखिए।",
+  "responses": {
+    "A": "आपके ऑर्डर में देरी हुई है, इसके लिए हमें खेद है। वह दो दिन बाद आप तक पहुँच जाएगा।",
+    "B": "तुम्हारा ऑर्डर दो दिन देर से आएगा, थोड़ा इंतज़ार कर लो।"
+  },
+  "scores": {
+    "A": {
+      "instruction_following": 5,
+      "accuracy": 5,
+      "language_quality": 5,
+      "helpfulness": 5,
+      "tone": 5
+    },
+    "B": {
+      "instruction_following": 5,
+      "accuracy": 4,
+      "language_quality": 3,
+      "helpfulness": 3,
+      "tone": 1
+    }
+  },
+  "notes": {
+    "A": "Formal 'आप' register, apologises, states the delay.",
+    "B": "Uses 'तुम' and a casual imperative. The prompt asked for formal Hindi to a customer."
+  },
+  "rater": "author"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "hi-03",
+  "language": "hi",
+  "flaw_in_weaker_response": "wrong_register",
+  "source_note": "Written for this repository. Not outputs of a real model.",
+  "prompt": "इस वाक्य का विनम्र हिंदी में अनुवाद कीजिए: 'Please bring your previous reports.'",
+  "responses": {
+    "A": "कृपया अपनी पिछली रिपोर्ट साथ लाएँ।",
+    "B": "अपनी पुरानी रिपोर्ट ले आ।"
+  },
+  "scores": {
+    "A": {
+      "instruction_following": 5,
+      "accuracy": 5,
+      "language_quality": 5,
+      "helpfulness": 5,
+      "tone": 5
+    },
+    "B": {
+      "instruction_following": 5,
+      "accuracy": 4,
+      "language_quality": 3,
+      "helpfulness": 3,
+      "tone": 1
+    }
+  },
+  "notes": {
+    "A": "Correct meaning and a polite 'आप' form with 'कृपया'.",
+    "B": "Right meaning but uses the intimate 'तू' imperative ('ले आ'), which is impolite when addressed to a patient or customer."
+  },
+  "rater": "author"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "hi-12",
+  "language": "hi",
+  "flaw_in_weaker_response": "literal_reading",
+  "source_note": "Written for this repository. Not outputs of a real model.",
+  "prompt": "कहावत 'सब्र का फल मीठा होता है' का अर्थ एक वाक्य में बताइए।",
+  "responses": {
+    "A": "इसका अर्थ है कि मीठा फल खाने से सब्र आ जाता है।",
+    "B": "इसका अर्थ है कि धैर्य रखने वाले को अंत में अच्छा परिणाम मिलता है।"
+  },
+  "scores": {
+    "A": {
+      "instruction_following": 5,
+      "accuracy": 1,
+      "language_quality": 4,
+      "helpfulness": 1,
+      "tone": 4
+    },
+    "B": {
+      "instruction_following": 5,
+      "accuracy": 5,
+      "language_quality": 5,
+      "helpfulness": 5,
+      "tone": 5
+    }
+  },
+  "notes": {
+    "A": "Reads the proverb literally and even reverses cause and effect.",
+    "B": "Gives the figurative meaning in one sentence."
+  },
+  "rater": "author"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "gu-05",
+  "language": "gu",
+  "flaw_in_weaker_response": "wrong_script",
+  "source_note": "Written for this repository. Not outputs of a real model.",
+  "prompt": "તમારા મેનેજરને કાલની રજા માટે બે લીટીમાં અરજી લખો. જવાબ ગુજરાતી લિપિમાં હોવો જોઈએ.",
+  "responses": {
+    "A": "આદરણીય સાહેબ, કેટલાક અગત્યના અંગત કામને લીધે મને આવતીકાલે રજા જોઈએ છે. કૃપા કરીને મારી રજા મંજૂર કરશો.",
+    "B": "Respected sir, mane kal ek jaruri kaam chhe etle hu office nahi aavi shaku. Krupa kari raja manjur karsho."
+  },
+  "scores": {
+    "A": {
+      "instruction_following": 5,
+      "accuracy": 5,
+      "language_quality": 5,
+      "helpfulness": 5,
+      "tone": 5
+    },
+    "B": {
+      "instruction_following": 1,
+      "accuracy": 4,
+      "language_quality": 3,
+      "helpfulness": 3,
+      "tone": 3
+    }
+  },
+  "notes": {
+    "A": "Two lines, Gujarati script, suitably formal.",
+    "B": "Ignores the explicit script requirement and writes Gujarati in Roman letters."
+  },
+  "rater": "author"
+}

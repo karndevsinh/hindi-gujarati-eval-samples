@@ -1,0 +1,32 @@
+{
+  "id": "hi-01",
+  "language": "hi",
+  "flaw_in_weaker_response": "invented_facts",
+  "source_note": "Written for this repository. Not outputs of a real model.",
+  "prompt": "एक मरीज़ ने अपॉइंटमेंट बदलने के लिए कहा है, जो दो घंटे बाद है। रिसेप्शनिस्ट की ओर से 40 शब्दों से कम में एक विनम्र जवाब लिखिए।",
+  "responses": {
+    "A": "नमस्ते, सूचित करने के लिए धन्यवाद। हम आपकी अपॉइंटमेंट बदलने की पूरी कोशिश करेंगे। कृपया बताइए कि आपको कौन-सा दिन और समय सुविधाजनक रहेगा, हम डॉक्टर से पूछकर जल्द ही पुष्टि करेंगे।",
+    "B": "नमस्ते। 24 घंटे से कम समय में अपॉइंटमेंट नहीं बदली जा सकती और 1,000 रुपये का शुल्क लगेगा। यदि आप रद्द करना चाहें तो बताइए।"
+  },
+  "scores": {
+    "A": {
+      "instruction_following": 5,
+      "accuracy": 5,
+      "language_quality": 5,
+      "helpfulness": 5,
+      "tone": 4
+    },
+    "B": {
+      "instruction_following": 5,
+      "accuracy": 1,
+      "language_quality": 4,
+      "helpfulness": 2,
+      "tone": 3
+    }
+  },
+  "notes": {
+    "A": "Makes no policy claims and asks for the one detail needed. 'पूरी कोशिश' is a small promise but reasonable.",
+    "B": "Invents a 24-hour rule and a fee the prompt never mentions, and closes the conversation instead of helping."
+  },
+  "rater": "author"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "hi-11",
+  "language": "hi",
+  "flaw_in_weaker_response": "mistranslation",
+  "source_note": "Written for this repository. Not outputs of a real model.",
+  "prompt": "इस वाक्य का हिंदी में अनुवाद कीजिए: 'The meeting is postponed to Monday.'",
+  "responses": {
+    "A": "बैठक सोमवार के लिए टाल दी गई है।",
+    "B": "बैठक सोमवार को रद्द हो गई है।"
+  },
+  "scores": {
+    "A": {
+      "instruction_following": 5,
+      "accuracy": 5,
+      "language_quality": 5,
+      "helpfulness": 5,
+      "tone": 5
+    },
+    "B": {
+      "instruction_following": 4,
+      "accuracy": 1,
+      "language_quality": 4,
+      "helpfulness": 1,
+      "tone": 4
+    }
+  },
+  "notes": {
+    "A": "Keeps the meaning: moved to Monday.",
+    "B": "Says the meeting is cancelled, which is a different meaning. Natural Hindi, wrong content."
+  },
+  "rater": "author"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "gu-13",
+  "language": "gu",
+  "flaw_in_weaker_response": "grammar",
+  "source_note": "Written for this repository. Not outputs of a real model.",
+  "prompt": "આ વાક્યને ભૂતકાળમાં બદલો: 'મારી બહેન દિલ્હી જશે.'",
+  "responses": {
+    "A": "મારી બહેન દિલ્હી ગઈ.",
+    "B": "મારી બહેન દિલ્હી ગયો."
+  },
+  "scores": {
+    "A": {
+      "instruction_following": 5,
+      "accuracy": 5,
+      "language_quality": 5,
+      "helpfulness": 5,
+      "tone": 5
+    },
+    "B": {
+      "instruction_following": 4,
+      "accuracy": 4,
+      "language_quality": 1,
+      "helpfulness": 3,
+      "tone": 3
+    }
+  },
+  "notes": {
+    "A": "Verb agrees with the feminine subject ('ગઈ').",
+    "B": "Masculine verb ('ગયો') with a feminine subject."
+  },
+  "rater": "author"
+}

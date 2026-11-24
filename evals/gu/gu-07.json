@@ -1,0 +1,32 @@
+{
+  "id": "gu-07",
+  "language": "gu",
+  "flaw_in_weaker_response": "rude_tone",
+  "source_note": "Written for this repository. Not outputs of a real model.",
+  "prompt": "મિત્રને ઉછીના આપેલા પૈસા પાછા આપવાની યાદ અપાવતો વિનમ્ર સંદેશ લખો.",
+  "responses": {
+    "A": "નમસ્તે, આશા છે કે તમે મજામાં હશો. થોડા સમય પહેલાં આપેલા પૈસા વિશે યાદ અપાવું છું. તમને અનુકૂળ હોય ત્યારે કૃપા કરીને પાછા આપી દેશો. આભાર.",
+    "B": "હજી સુધી પૈસા કેમ પાછા નથી આપ્યા? કાલ સુધી નહીં આપો તો બધાને કહી દઈશ."
+  },
+  "scores": {
+    "A": {
+      "instruction_following": 5,
+      "accuracy": 5,
+      "language_quality": 5,
+      "helpfulness": 5,
+      "tone": 5
+    },
+    "B": {
+      "instruction_following": 4,
+      "accuracy": 4,
+      "language_quality": 4,
+      "helpfulness": 2,
+      "tone": 1
+    }
+  },
+  "notes": {
+    "A": "Polite and clear, leaves the friend room.",
+    "B": "Accusing, and threatens to shame the friend. Fails 'વિનમ્ર'."
+  },
+  "rater": "author"
+}

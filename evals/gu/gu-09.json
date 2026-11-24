@@ -1,0 +1,32 @@
+{
+  "id": "gu-09",
+  "language": "gu",
+  "flaw_in_weaker_response": "wrong_register",
+  "source_note": "Written for this repository. Not outputs of a real model.",
+  "prompt": "એક ગ્રાહકે પૂછ્યું છે કે તેનો ઓર્ડર ક્યાં છે. ઓર્ડર બે દિવસ મોડો પહોંચશે. ઔપચારિક ગુજરાતીમાં બે વાક્યમાં જવાબ લખો.",
+  "responses": {
+    "A": "આપના ઓર્ડરમાં વિલંબ થયો છે, તે બદલ અમે દિલગીર છીએ. તે બે દિવસ પછી આપના સુધી પહોંચી જશે.",
+    "B": "તારો ઓર્ડર બે દિવસ મોડો આવશે, થોડી રાહ જોજે."
+  },
+  "scores": {
+    "A": {
+      "instruction_following": 5,
+      "accuracy": 5,
+      "language_quality": 5,
+      "helpfulness": 5,
+      "tone": 5
+    },
+    "B": {
+      "instruction_following": 5,
+      "accuracy": 4,
+      "language_quality": 3,
+      "helpfulness": 3,
+      "tone": 1
+    }
+  },
+  "notes": {
+    "A": "Formal 'આપ' register, apologises, states the delay.",
+    "B": "Uses 'તારો' and a casual imperative, when formal Gujarati was requested."
+  },
+  "rater": "author"
+}

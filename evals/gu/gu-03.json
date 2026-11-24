@@ -1,0 +1,32 @@
+{
+  "id": "gu-03",
+  "language": "gu",
+  "flaw_in_weaker_response": "wrong_register",
+  "source_note": "Written for this repository. Not outputs of a real model.",
+  "prompt": "આ વાક્યનો વિનમ્ર ગુજરાતીમાં અનુવાદ કરો: 'Please bring your previous reports.'",
+  "responses": {
+    "A": "કૃપા કરીને તમારા અગાઉના રિપોર્ટ સાથે લાવજો.",
+    "B": "તારા જૂના રિપોર્ટ લઈ આવ."
+  },
+  "scores": {
+    "A": {
+      "instruction_following": 5,
+      "accuracy": 5,
+      "language_quality": 5,
+      "helpfulness": 5,
+      "tone": 5
+    },
+    "B": {
+      "instruction_following": 5,
+      "accuracy": 4,
+      "language_quality": 3,
+      "helpfulness": 3,
+      "tone": 1
+    }
+  },
+  "notes": {
+    "A": "Polite and natural: 'કૃપા કરીને' with the respectful 'લાવજો'.",
+    "B": "Right meaning but uses the intimate 'તારા ... લઈ આવ', which is impolite towards a patient or customer."
+  },
+  "rater": "author"
+}

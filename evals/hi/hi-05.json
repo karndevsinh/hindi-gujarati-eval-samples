@@ -1,0 +1,32 @@
+{
+  "id": "hi-05",
+  "language": "hi",
+  "flaw_in_weaker_response": "wrong_script",
+  "source_note": "Written for this repository. Not outputs of a real model.",
+  "prompt": "अपने प्रबंधक को दो पंक्तियों में कल की छुट्टी के लिए आवेदन लिखिए। उत्तर देवनागरी लिपि में हो।",
+  "responses": {
+    "A": "आदरणीय महोदय, मुझे कुछ आवश्यक निजी कार्य के कारण कल अवकाश चाहिए। कृपया मेरी छुट्टी स्वीकृत करने की कृपा करें।",
+    "B": "Respected sir, mujhe kal kuch zaroori kaam hai isliye main office nahi aa paunga. Kripya chhutti manzoor kar dein."
+  },
+  "scores": {
+    "A": {
+      "instruction_following": 5,
+      "accuracy": 5,
+      "language_quality": 5,
+      "helpfulness": 5,
+      "tone": 5
+    },
+    "B": {
+      "instruction_following": 1,
+      "accuracy": 4,
+      "language_quality": 3,
+      "helpfulness": 3,
+      "tone": 3
+    }
+  },
+  "notes": {
+    "A": "Two lines, Devanagari, suitably formal.",
+    "B": "Ignores the explicit script requirement and writes Hindi in Roman letters. Content is fine, but the instruction is broken."
+  },
+  "rater": "author"
+}

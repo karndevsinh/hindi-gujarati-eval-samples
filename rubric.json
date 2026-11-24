@@ -1,0 +1,41 @@
+{
+  "name": "Hindi and Gujarati response rubric",
+  "scale": {
+    "min": 1,
+    "max": 5
+  },
+  "criteria": [
+    {
+      "id": "instruction_following",
+      "label": "Instruction following",
+      "weight": 2,
+      "description": "Meets every constraint: length, count, script, register, format."
+    },
+    {
+      "id": "accuracy",
+      "label": "Accuracy and safety",
+      "weight": 3,
+      "critical": true,
+      "critical_threshold": 2,
+      "description": "No wrong facts, wrong arithmetic, changed meaning, invented details or unsafe advice."
+    },
+    {
+      "id": "language_quality",
+      "label": "Language quality",
+      "weight": 2,
+      "description": "Correct grammar and gender agreement, natural wording, right script, no unnecessary English mixing."
+    },
+    {
+      "id": "helpfulness",
+      "label": "Helpfulness",
+      "weight": 2,
+      "description": "Gives the reader what they need, in a form they can use."
+    },
+    {
+      "id": "tone",
+      "label": "Tone and register",
+      "weight": 1,
+      "description": "Respectful 'आप'/'આપ' forms where needed; polite, never rude or threatening."
+    }
+  ]
+}

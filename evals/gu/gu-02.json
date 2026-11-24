@@ -1,0 +1,32 @@
+{
+  "id": "gu-02",
+  "language": "gu",
+  "flaw_in_weaker_response": "jargon_mixing",
+  "source_note": "Written for this repository. Not outputs of a real model.",
+  "prompt": "એક વૃદ્ધ વ્યક્તિને બે વાક્યમાં સમજાવો કે UPI શું છે.",
+  "responses": {
+    "A": "UPI એક real-time interbank payment system છે જે NPCI એ develop કરી છે અને VPA દ્વારા instant transactions enable કરે છે. તે IMPS architecture પર based છે.",
+    "B": "UPI એ મોબાઇલથી પૈસા મોકલવાની સરળ રીત છે, જેમાં પૈસા સીધા તમારા બેંક ખાતામાંથી બીજાના બેંક ખાતામાં પહોંચી જાય છે. તેના માટે સામેવાળાનો મોબાઇલ નંબર અથવા QR કોડ જોઈએ અને તમારે તમારો ગુપ્ત પિન નાખવો પડે છે."
+  },
+  "scores": {
+    "A": {
+      "instruction_following": 5,
+      "accuracy": 4,
+      "language_quality": 2,
+      "helpfulness": 1,
+      "tone": 2
+    },
+    "B": {
+      "instruction_following": 5,
+      "accuracy": 5,
+      "language_quality": 5,
+      "helpfulness": 5,
+      "tone": 5
+    }
+  },
+  "notes": {
+    "A": "Accurate but full of English jargon the stated audience cannot follow.",
+    "B": "Plain words suited to an older reader."
+  },
+  "rater": "author"
+}
